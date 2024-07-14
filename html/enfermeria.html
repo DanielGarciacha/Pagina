@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Enfermería</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/usuario.js" ></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-success text-white text-center py-3">
+        <h1>Bienvenido, <span id="usernameDisplay"></span> (Enfermería)</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+            <li class="btn btn-outline-secondary"><a class="nav-link text-white" href="">Area Personal</a></li>
+                <li class="btn btn-outline-secondary"><a class="nav-link text-white" href="index.html">Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow-1">
+        <section class="container my-4">
+            <h2>Contenido para Enfermeros</h2>
+            <p>Este es el espacio para el contenido destinado a los Enfermeros.</p>
+            <table id="enfermeria-table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de datos se cargarán aquí dinámicamente -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="bg-success text-white text-center py-3 mt-5">
+        <div class="container">
+            <p>&copy; 2024 Sitio Web. Todos los derechos reservados.</p>  
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
