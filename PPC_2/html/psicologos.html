@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Psicólogos</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-success text-white text-center py-3">
+        <h1>Bienvenido, <span id="usernameDisplay"></span> (Psicólogo)</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Cerrar Sesión</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Área Personal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow-1">
+        <section class="container my-4">
+            <h2>Contenido para Psicólogos</h2>
+            <p>Este es el espacio para el contenido destinado a los psicólogos.</p>
+
+            <table id="psicologos-table" class="table table-striped mt-5">
+                <thead>
+                    <tr>
+                        <th>Nombre y Apellido</th>
+                        <th>Correo</th>
+                        <th>Género</th>
+                        <th>Motivo</th>
+                        <th>Fecha de Reserva</th>
+                        <th>Hora de Reserva</th>
+                        <th>Sede</th>
+                        <th>ID del Usuario</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="dataTable">
+                    <!-- Filas de datos se cargarán aquí con JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="bg-success text-white text-center py-3 mt-5">
+        <div class="container">
+            <p>&copy; 2024 Sitio Web. Todos los derechos reservados.</p>   
+        </div>
+    </footer>
+    <script src="../js/psicologia.js"></script>
+</body>
+</html>
+
+

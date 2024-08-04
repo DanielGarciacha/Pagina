@@ -1,0 +1,19 @@
+body {
+    /* Fondo semitransparente e imagen */
+    background: linear-gradient(to right, rgba(74, 144, 226, 0.5), rgba(20, 93, 160, 0.5)), url('../img/LOGINFONDO.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    margin: 0; /* Elimina margen predeterminado */
+    padding: 0; /* Elimina padding predeterminado */
+    height: 100vh; /* Altura igual al 100%  del navegador */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);/* Fondo semitransparente negro para oscurecer la imagen de fondo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
